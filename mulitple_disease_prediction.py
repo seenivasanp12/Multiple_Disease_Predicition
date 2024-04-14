@@ -12,11 +12,11 @@ from streamlit_option_menu import option_menu
 
 #loading the saved models
 
-diabetes_model = pickle.load(open(r'C:\Users\seeni\OneDrive\Desktop\Re_Project\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:\Users\seeni\OneDrive\Desktop\Re_Project\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(r'C:\Users\seeni\OneDrive\Desktop\Re_Project\heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('C:\Users\seeni\OneDrive\Desktop\Re_Project\heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(r'C:\Users\seeni\OneDrive\Desktop\Disease Prediction\Project File disease\parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:\Users\seeni\OneDrive\Desktop\Disease Prediction\Project File disease\parkinsons_model.sav', 'rb'))
 
 # sidebar for navigate
 
